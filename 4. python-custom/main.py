@@ -5,3 +5,4 @@ client = MongoClient(MONGO_URL)
 db = client.admin
 dbs_list = db.command("listDatabases")
 pprint(dbs_list)
+
